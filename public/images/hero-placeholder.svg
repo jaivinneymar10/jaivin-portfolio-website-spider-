@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="997" height="556" viewBox="0 0 997 556">
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="124" height="74" patternUnits="userSpaceOnUse">
+      <path d="M124 0H0V74" fill="none" stroke="#123028" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="997" height="556" fill="#020907"/>
+  <rect width="997" height="556" fill="url(#grid)"/>
+  <rect x="37" y="27" width="920" height="47" rx="5" fill="none" stroke="#0b6d4b" stroke-width="1.2"/>
+
+  <rect x="148" y="138" width="200" height="125" rx="8" fill="#030b08" stroke="#ff9d00" stroke-width="3"/>
+  <text x="248" y="188" text-anchor="middle" fill="#ff9d00" font-family="Arial,sans-serif" font-size="17" font-weight="700">AWS S3 BUCKET</text>
+  <text x="248" y="219" text-anchor="middle" fill="#27e68b" font-family="Arial,sans-serif" font-size="12">STATIC MEDIA CDN</text>
+
+  <rect x="397" y="138" width="200" height="125" rx="8" fill="#030b08" stroke="#20e0bd" stroke-width="3"/>
+  <text x="497" y="188" text-anchor="middle" fill="#27e68b" font-family="Arial,sans-serif" font-size="17" font-weight="700">FLASK APP</text>
+  <text x="497" y="219" text-anchor="middle" fill="#22d7ff" font-family="Arial,sans-serif" font-size="12">DOCKER CONTAINER</text>
+
+  <rect x="645" y="138" width="201" height="125" rx="8" fill="#030b08" stroke="#19c9ee" stroke-width="3"/>
+  <text x="745.5" y="188" text-anchor="middle" fill="#19d7ee" font-family="Arial,sans-serif" font-size="17" font-weight="700">MYSQL CLUSTER</text>
+  <text x="745.5" y="219" text-anchor="middle" fill="#ff9d00" font-family="Arial,sans-serif" font-size="12">AWS RDS CLOUD DB</text>
+
+  <path d="M348 201H397" stroke="#27e68b" stroke-width="4" stroke-dasharray="5 4"/>
+  <path d="M597 201H645" stroke="#27e68b" stroke-width="4" stroke-dasharray="5 4"/>
+
+  <rect x="148" y="337" width="698" height="126" rx="8" fill="#030b08" stroke="#20e0bd" stroke-width="2.5"/>
+  <circle cx="198.5" cy="399.5" r="10" fill="#27e68b" filter="url(#glow)"/>
+  <circle cx="236" cy="399.5" r="10" fill="#22c8e8"/>
+  <circle cx="273.5" cy="399.5" r="10" fill="#ff9d00"/>
+  <text x="311" y="394" fill="#27e68b" font-family="Arial,sans-serif" font-size="16" font-weight="700">HIGH AVAILABILITY NGINX REVERSE PROXY</text>
+  <text x="311" y="424" fill="#aabdb7" font-family="monospace" font-size="13">LOAD BALANCING  •  SSL ENCRYPTION  •  99.9% UPTIME TARGET</text>
+</svg>
